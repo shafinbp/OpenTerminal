@@ -5,6 +5,8 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from master_contract import download_and_store_json
 from datetime import datetime
 import pytz
+import time
+
 
 # Function to schedule the daily download
 def schedule_task(app):
